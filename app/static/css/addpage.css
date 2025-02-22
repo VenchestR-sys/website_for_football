@@ -1,0 +1,30 @@
+.table {
+    display: flex; 
+    font-family: "Manrope semibold",system-ui,sans-serif;
+}
+
+.table-ite {
+    margin-right: 50px; 
+    color: black;
+}
+
+
+.table-item {
+    margin-right: 100px; 
+    color: black;
+}
+
+/* Убираем последний отступ */
+.table-item:last-child {
+    margin-right: 5px;
+}
+.headers{
+    font-size: 15px;
+    display: flex; 
+    font-family: "Manrope semibold",system-ui,sans-serif;
+}
+.headers1{
+    font-size: 20px;
+    font-family: "Manrope semibold",system-ui,sans-serif;
+}
+

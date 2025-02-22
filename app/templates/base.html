@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<table class="table-page" border=0 cellpadding="0" cellspacing="0">
+<tr><td valign=top>
+{% block mainmenu %}
+		<div class="header">
+			<ul id="mainmenu" class="mainmenu">
+			<li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>
+{% for m in menu %}
+	{% if not forloop.last %}<li>{% else %}<li class="last">{% endif %}
+		<a href="{% url m.url_name %}">{{m.title}}</a></li>
+{% endfor %}
+			</ul>
+			<div class="clear"></div>
+		</div>
+{% endblock mainmenu %}
+
+
+<table class="table-content" border=0 cellpadding="0" cellspacing="0">
+<tr>
+<!-- Sidebar слева -->
+</td>
+<!-- Конец Sidebar'а -->
+<td valign="top" class="content">
+
+
+	<div class="content-text">
+{% block content %}
+{% endblock %}
+	</div>
+
+<tr><td valign=top>
+	<div id="footer">
+		<p>&copy; © 1998-2025 УЕФА. Все права защищены.
+
+			Слово «УЕФА», логотип УЕФА и все знаки, связанные с соревнованиями УЕФА, защищены товарными знаками и/или авторскими правами УЕФА. Такие товарные знаки нельзя использовать в коммерческих целях. Использование UEFA.com означает ваше согласие с Условиями и положениями, а также Политикой конфиденциальности.</p>
+	</div>
+</td></tr></table>
+</body>
+</html>
