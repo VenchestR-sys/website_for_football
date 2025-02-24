@@ -1,34 +1,35 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static  %}
+
 <link type="text/css" href="{% static 'css/addpage.css' %}" rel="stylesheet" />
-<div class='headers1'><p>Таблица этапов лиги<p></div>
-<div class="headers">
-    <span class="table-ite"><p>Игры</p></span> 
-    <span class="table-ite"><p>Выиграл</p></span>    
-    <span class="table-ite"><p>Нарисованный</p></span>    
-    <span class="table-ite"><p>Потерянный</p></span>    
-    <span class="table-ite"><p>Для</p> </span>      
-    <span class="table-ite"><p>Против</p></span> 
-    <span class="table-ite"><p>Разница мячей</p></span> 
-    <span class="table-ite"><p>Очки</p></span> 
+
+<div class='headers'><p>Таблица этапов лиги<p></div>
 </div>
 <p>
 
-
 {% for tables in table %}
-<hr>
+<hr width="1300px">
 <p class="table">
-    <div class=''>
-    <span class="table-item">{{ tables.name }}</span>
-    <span class="table-item">{{ tables.played }}</span>
-    <span class="table-item">{{ tables.won }}</span>
-    <span class="table-item">{{ tables.drawn }}</span>
-    <span class="table-item">{{ tables.lost }}</span>
-    <span class="table-item">{{ tables.fors }}</span>
-    <span class="table-item">{{ tables.against }}</span>
-    <span class="table-item">{{ tables.goal_difference }}</span>
+{{ tables.name }}
 </p>
 <div>
+    <div class='head1'><p>Played</p></div>
+        <div class="bd1">{{ tables.played }}</div>
+            <div class='head2'><p>Won</p></div>
+                <div class="bd2">{{ tables.won }}</div>
+                    <div class='head3'><p>Drawn</p></div>
+                        <div class="bd3">{{ tables.drawn }}</div>
+                            <div class='head4'><p>Lost</p></div>
+                                <div class="bd4">{{ tables.lost }}</div>
+                                    <div class="head5">For</div>
+                                        <div class="bd5">{{ tables.drawn }}</div>
+                                            <div class="head6">Against</div>
+                                        <div class="bd6">{{ tables.drawn }}</div>
+                                    <div class="head7">Goal difference</div>
+                                <div class="bd7">{{ tables.drawn }}</div>
+                            <div class="head8">Points</div>
+                        <div class="bd8">{{ tables.drawn }}</div>
 {%endfor%}
+<hr>
 {%endblock%}

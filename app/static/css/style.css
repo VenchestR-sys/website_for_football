@@ -82,13 +82,19 @@ ul.list-articles li {
 
 .header {
 	background-image: url('../img/backgroundDark03L.avif');
-    width: auto;
+    width: 100vw;
+	position: fixed;
+	z-index: 100;
+	background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .logo {
 	background: url('../img/logo1.png') no-repeat 10px 5px;
 	width: 70px;
 	height: 60px;
+	z-index: 100;
 }
 
 ul.mainmenu {
@@ -290,6 +296,7 @@ ul.lang-list li a:hover {color: #fdc073;}
 }
 
 #footer {
+	position: absolute;
 	box-sizing: border-box;
 	background: #4a12e4;
 	padding: 15px;
@@ -301,9 +308,10 @@ ul.lang-list li a:hover {color: #fdc073;}
 	visibility: visible;
 	font-family: "Manrope regular", system-ui, sans-serif;
 	overflow: hidden;
-	width: auto;
+	width: 100vw;
 }
 #footer a {
+
 	text-decoration: underline;
 	color: #aaa;
 }

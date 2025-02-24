@@ -1,3 +1,43 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
+<link type="text/css" href="{% static 'css/video.css' %}" rel="stylesheet" />
+<div class="headere"></div>
+<div class="hed"><p>Видео</p></div>
+    <div class="hed1"><p>Избранное</p><div>
+ 
+            <div class="video-container">
+                <video controls>
+                    <source src="{% static 'video/video1.mp4' %}" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+           <div class="video-container2">
+                <video controls>
+                    <source src="{% static 'video/video2.mp4' %}" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div> 
+            <div class="video-container3">
+                <video controls>
+                    <source src="{% static 'video/video3.mp4' %}" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div> 
+            <div class="video-container4">
+                <video controls>
+                    <source src="{% static 'video/video4.mp4' %}" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div> 
+<div class="hed2"><p>Отличные голы в плей-офф на этапе плей-офф</p></div>
+<div class="hed3"><p>Посмотрите на великолепные удары Килиана Мбаппе, Брэдли Барколы, Серу Гирасси и других.</p></div>
+<div class="hed4"><p>Основные моменты</p></div>
+<div class='white-background'></div><div class='white-background2'></div><div class='white-background3'>
+<div class='fot1'></div><div class="for1_text"><p>Классное послевкусие</br> Дембеле</p></div>
+<div class="fot2"></div><div class="for2_text"><p>Превосходный удар Маккенни</p></div>
+<div class="ggg"><p>Классические матчи</p></div>
+<div class='fot1'></div><div class="for1_text"><p>Классное послевкусие</br> Дембеле</p></div>
+
+
 {% endblock %}

@@ -1,0 +1,225 @@
+body {
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+}
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 250vh;
+}
+.headere {
+    position: absolute; /* Позволяет элементу находиться поверх видео */
+    background: rgb(1, 14, 70); /* Полупрозрачный фон */
+    padding: 500px;
+    color: #12123f; /* Измените цвет текста для лучшей видимости */
+    font-size: 20px; 
+    top: 6vh; /* Расположение заголовка сверху */
+    left: 0vw; /* Центрирование по горизонтали */
+    width: 42.5vw;
+}
+.hed{
+    position: absolute;
+    left: 6vw;
+    top: 5vh;
+    color: #fff;
+    font-size: 52px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.hed1{
+    position: absolute;
+    left: 6vw;
+    top: 16vh;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 1000px;
+    position: relative; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+.video-container2 {
+    top: -66vh;
+    left: 56.6vw;
+    width: 450px;
+    height: 750px;
+    max-width: 1000px;
+    position: relative; /* Это важно для позиционирования дочерних элементов */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+.video-container3 {
+    top: -123.5vh;
+    left: 56.6vw;
+    width: 450px;
+    height: 750px;
+    max-width: 1000px;
+    position: relative; /* Это важно для позиционирования дочерних элементов */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+.video-container4 {
+    top: -181vh;
+    left: 56.6vw;
+    width: 450px;
+    height: 750px;
+    max-width: 1000px;
+    position: relative; /* Это важно для позиционирования дочерних элементов */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+.hed2{
+    position: absolute;
+    left: 0vw;
+    top: 77vh;
+    color: #fff;
+    font-size: 26px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.hed3{
+    position: absolute;
+    left: 0vw;
+    top: 88vh;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.hed4{
+    position: absolute;
+    left: 0vw;
+    top: 108vh;
+    color: black;
+    font-size: 33px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.fot2{
+    position: absolute;
+left: 30vw;
+top: 120vh;
+background: url('../img/game/fbl-eur-c1-juventus-psv_eindhoven.avif') no-repeat center center; /* Центрируем изображение */
+background-size: cover; /* Заполняем элемент изображением */
+width: 27.5vw;
+height: 30vh;
+border-radius: 15px; /* Замените 15px на нужное вам значение */
+overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
+    }
+.for2_text{
+        position: absolute;
+        left: 33vw;
+        top: 155vh;
+        color: black;
+        font-size: 25px;
+        font-family: "Manrope semibold", system-ui, sans-serif;
+    }
+.white-background {
+    position: absolute;
+    width: 2.5vw;
+    height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
+    background-color: rgb(241, 238, 245); 
+    border-radius: 15px; 
+    padding: 220px; 
+    top: 120vh;
+    border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
+    }
+.fot1{
+    position: absolute;
+    left: 0vw;
+    top: 120vh;
+    background: url('../img/game/stade_brestois_29_v_paris_saint-germain_-_uefa_champions_league_2024_25_league_knockout_play-off_first_leg.avif') no-repeat center center; 
+    width: 27.5vw;
+    height: 30vh;
+    border-radius: 15px; /* Замените 15px на нужное вам значение */
+    
+}
+.for1_text{
+    position: absolute;
+    left: 5vw;
+    top: 155vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.white-background2 {
+    position: absolute;
+    left: 30vw;
+    width: 2.5vw;
+    height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
+    background-color: rgb(241, 238, 245); 
+    border-radius: 15px; 
+    padding: 220px; 
+    top: 120vh;
+    border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
+    }
+.ggg{
+    position: absolute;
+    left: 0vw;
+    top: 170vh;
+    color: black;
+    font-size: 33px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}    
+.white-background3 {
+    position: absolute;
+    left: 30vw;
+    width: 2.5vw;
+    height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
+    background-color: rgb(241, 238, 245); 
+    border-radius: 15px; 
+    padding: 220px; 
+    top: 120vh;
+    border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
+    }
+.fot3{
+        position: absolute;
+    left: 30vw;
+    top: 120vh;
+    background: url('../img/game/800x450.webp') no-repeat center center; /* Центрируем изображение */
+    background-size: cover; /* Заполняем элемент изображением */
+    width: 27.5vw;
+    height: 30vh;
+    border-radius: 15px; /* Замените 15px на нужное вам значение */
+    overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
+        }
+.for3_text{
+            position: absolute;
+            left: 33vw;
+            top: 155vh;
+            color: black;
+            font-size: 25px;
+            font-family: "Manrope semibold", system-ui, sans-serif;
+        }

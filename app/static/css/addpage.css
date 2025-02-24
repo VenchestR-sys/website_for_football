@@ -1,30 +1,128 @@
-.table {
-    display: flex; 
-    font-family: "Manrope semibold",system-ui,sans-serif;
-}
-
-.table-ite {
-    margin-right: 50px; 
-    color: black;
-}
-
-
-.table-item {
-    margin-right: 100px; 
-    color: black;
-}
-
-/* Убираем последний отступ */
-.table-item:last-child {
-    margin-right: 5px;
-}
 .headers{
-    font-size: 15px;
-    display: flex; 
-    font-family: "Manrope semibold",system-ui,sans-serif;
+    position: absolute;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+    left:20px;
+    font-size: 18px;
+    top:90px;
 }
-.headers1{
-    font-size: 20px;
-    font-family: "Manrope semibold",system-ui,sans-serif;
+hr { width: 1320px;
+     margin-left: -0px;  
 }
-
+.table{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+    
+}
+.head1{
+        font-size: 16px;
+        position: absolute; /* Абсолютное позиционирование */
+        left: 250px; /* Позиция слева */
+        top: 120px; /* Позиция сверху */
+        font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head2{
+    font-size: 16px;
+        position: absolute; /* Абсолютное позиционирование */
+        left: 380px; /* Позиция слева */
+        top: 120px; /* Позиция сверху */
+        font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head3{
+    font-size: 16px;
+        position: absolute; /* Абсолютное позиционирование */
+        left: 500px; /* Позиция слева */
+        top: 120px; /* Позиция сверху */
+        font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head4{
+    font-size: 16px;
+        position: absolute; /* Абсолютное позиционирование */
+        left: 650px; /* Позиция слева */
+        top: 120px; /* Позиция сверху */
+        font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head5{
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 800px; /* Позиция слева */
+    top: 140px; /* Позиция сверху */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head6{
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 950px; /* Позиция слева */
+    top: 140px; /* Позиция сверху */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head7{
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1100px; /* Позиция слева */
+    top: 140px; /* Позиция сверху */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.head8{
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1300px; /* Позиция слева */
+    top: 140px; /* Позиция сверху */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd1{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 250px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd2{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 380px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd3{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 500px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd4{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 650px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd5{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 800px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd6{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 950px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd7{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1150px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bd8{
+    margin-top: -35px;
+    font-size: 16px;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1320px; /* Позиция слева */
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}

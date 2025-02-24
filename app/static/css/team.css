@@ -1,0 +1,1024 @@
+body {
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+}
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 250vh;
+}
+#footer a {
+	text-decoration: underline;
+	color: #aaa;
+}
+.pop{
+    position: absolute;
+    left: 3vw;
+    top: 5vh;
+    color: black;
+    font-size: 45px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.pop2{
+    position: absolute;
+    left: 3vw;
+    top: 18vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.arsenal{
+    position: absolute;
+    left: 5vw;
+    top: 30vh;
+    background: url('../img/img.emblem/arsenal.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.arsenal_text{
+    position: absolute;
+    left: 5vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.aston{
+    position: absolute;
+    left: 14vw;
+    top: 30vh;
+    background: url('../img/img.emblem/aston_vila.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.aston_text{
+    position: absolute;
+    left: 13.5vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.atletiko{
+    position: absolute;
+    left: 24vw;
+    top: 30vh;
+    background: url('../img/img.emblem/atletiko.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.atletiko_text{
+    position: absolute;
+    left: 24.5vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+.dortmund{
+    position: absolute;
+    left: 33vw;
+    top: 30vh;
+    background: url('../img/img.emblem/dortmund.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.dortmund_text{
+    position: absolute;
+    left: 32vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.barcelona{
+    position: absolute;
+    left: 43vw;
+    top: 30vh;
+    background: url('../img/img.emblem/barselona.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.barcelona_text{
+    position: absolute;
+    left: 42.5vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bayern{
+    position: absolute;
+    left: 53vw;
+    top: 30vh;
+    background: url('../img/img.emblem/bayer.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.bayern_text{
+    position: absolute;
+    left: 51vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.benfica{
+    position: absolute;
+    left: 63vw;
+    top: 30vh;
+    background: url('../img/img.emblem/benfika.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.benfica_text{
+    position: absolute;
+    left: 63vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.brugge{
+    position: absolute;
+    left: 73vw;
+    top: 30vh;
+    background: url('../img/img.emblem/brugge.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.brugge_text{
+    position: absolute;
+    left: 72vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.feen{
+    position: absolute;
+    left: 83vw;
+    top: 30vh;
+    background: url('../img/img.emblem/feyenoord.png') no-repeat;
+	width: 70vw;
+	height: 60vh;
+}
+.feen_text{
+    position: absolute;
+    left: 82.5vw;
+    top: 35vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.inter{
+    position: absolute;
+    left: 93vw;
+    top: 30vh;
+    background: url('../img/img.emblem/inter.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.inter_text{
+    position: absolute;
+    left: 94vw;
+    top: 36vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+.leverkusen{
+    position: absolute;
+    left: 5vw;
+    top: 45vh;
+    background: url('../img/img.emblem/leverkusen.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.leverkusen_text{
+    position: absolute;
+    left: 4.5vw;
+    top: 49vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.lille{
+    position: absolute;
+    left: 14vw;
+    top: 45vh;
+    background: url('../img/img.emblem/lille.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.lille_text{
+    position: absolute;
+    left: 14.8vw;
+    top: 49.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.liverpool{
+    position: absolute;
+    left: 24vw;
+    top: 45vh;
+    background: url('../img/img.emblem/liverpool.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.liverpool_text{
+    position: absolute;
+    left: 23.6vw;
+    top: 50vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.paris{
+    position: absolute;
+    left: 33vw;
+    top: 45vh;
+    background: url('../img/img.emblem/parij.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.paris_text{
+    position: absolute;
+    left: 33.5vw;
+    top: 52vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.psv{
+    position: absolute;
+    left: 43vw;
+    top: 45vh;
+    background: url('../img/img.emblem/psv.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.psv_text{
+    position: absolute;
+    left: 44vw;
+    top: 52vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.real{
+    position: absolute;
+    left: 53vw;
+    top: 45vh;
+    background: url('../img/img.emblem/real.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.real_text{
+    position: absolute;
+    left: 52.2vw;
+    top: 52vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.pop3{
+    
+    position: absolute;
+    left: 3vw;
+    top: 60vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.atalanta{
+    position: absolute;
+    left: 5vw;
+    top: 70vh;
+    background: url('../img/img.emblem/atalanta.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.atalanta_text{
+    position: absolute;
+    left: 5vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.brest{
+    position: absolute;
+    left: 14vw;
+    top: 70vh;
+    background: url('../img/img.emblem/brest.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.brest_text{
+    position: absolute;
+    left: 14.5vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.celtic{
+    position: absolute;
+    left: 24vw;
+    top: 70vh;
+    background: url('../img/img.emblem/celtic.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.celtic_text{
+    position: absolute;
+    left: 24.4vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.juventus{
+    position: absolute;
+    left: 33vw;
+    top: 70vh;
+    background: url('../img/img.emblem/juventus.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.juventus_text{
+    position: absolute;
+    left: 33vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.mansiti{
+    position: absolute;
+    left: 43vw;
+    top: 70vh;
+    background: url('../img/img.emblem/mansiti.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.mansiti_text{
+    position: absolute;
+    left: 43vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.milan{
+    position: absolute;
+    left: 53vw;
+    top: 70vh;
+    background: url('../img/img.emblem/milan.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.milan_text{
+    position: absolute;
+    left: 53.5vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.monaco{
+    position: absolute;
+    left: 63vw;
+    top: 70vh;
+    background: url('../img/img.emblem/monaco.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.monaco_text{
+    position: absolute;
+    left: 63vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.sporting{
+    position: absolute;
+    left: 73vw;
+    top: 70vh;
+    background: url('../img/img.emblem/sporting.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.sporting_text{
+    position: absolute;
+    left: 72.5vw;
+    top: 76.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+.pop4{
+    
+    position: absolute;
+    left: 3vw;
+    top: 82vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+
+.bologna{
+    position: absolute;
+    left: 5vw;
+    top: 94vh;
+    background: url('../img/img.emblem/bologna.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.bologna_text{
+    position: absolute;
+    left: 5vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.crvena{
+    position: absolute;
+    left: 14vw;
+    top: 94vh;
+    background: url('../img/img.emblem/crvena.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.crvena_text{
+    position: absolute;
+    left: 12.6vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.girona{
+    position: absolute;
+    left: 24vw;
+    top: 94vh;
+    background: url('../img/img.emblem/girona.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.girona_text{
+    position: absolute;
+    left: 24.2vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.dinamo{
+    position: absolute;
+    left: 34vw;
+    top: 94vh;
+    background: url('../img/img.emblem/dinamo.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.dinamo_text{
+    position: absolute;
+    left: 33vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.leipzig{
+    position: absolute;
+    left: 43vw;
+    top: 94vh;
+    background: url('../img/img.emblem/leipzig.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.leipzig_text{
+    position: absolute;
+    left: 43.2vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bratislava{
+    position: absolute;
+    left: 53vw;
+    top: 94vh;
+    background: url('../img/img.emblem/bratislava.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.bratislava_text{
+    position: absolute;
+    left: 52vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.salzburg{
+    position: absolute;
+    left: 63vw;
+    top: 94vh;
+    background: url('../img/img.emblem/salzburg.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.salzburg_text{
+    position: absolute;
+    left: 63vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.sahktar{
+    position: absolute;
+    left: 73vw;
+    top: 94vh;
+    background: url('../img/img.emblem/shaktar.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.sahktar_text{
+    position: absolute;
+    left: 73vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.sparta{
+    position: absolute;
+    left: 83vw;
+    top: 94vh;
+    background: url('../img/img.emblem/sparta.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.sparta_text{
+    position: absolute;
+    left: 82.1vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.sturm{
+    position: absolute;
+    left: 93vw;
+    top: 94vh;
+    background: url('../img/img.emblem/sturm.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.sturm_text{
+    position: absolute;
+    left: 92.3vw;
+    top: 100.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.stuttgart{
+    position: absolute;
+    left: 5vw;
+    top: 110vh;
+    background: url('../img/img.emblem/stuttgart.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.stuttgart_text{
+    position: absolute;
+    left: 4.5vw;
+    top: 116.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.young{
+    position: absolute;
+    left: 14vw;
+    top: 110vh;
+    background: url('../img/img.emblem/young.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.young_text{
+    position: absolute;
+    left: 14.2vw;
+    top: 116.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.pop5{
+    
+    position: absolute;
+    left: 3vw;
+    top: 123vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.bodo{
+    position: absolute;
+    left: 5vw;
+    top: 135vh;
+    background: url('../img/img.emblem/bodo.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.bodo_text{
+    position: absolute;
+    left: 4.4vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.dynamo{
+    position: absolute;
+    left: 14vw;
+    top: 135vh;
+    background: url('../img/img.emblem/dynamo.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.dynamo_text{
+    position: absolute;
+    left: 13.4vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.galatasaray{
+    position: absolute;
+    left: 24vw;
+    top: 135vh;
+    background: url('../img/img.emblem/galatasaray.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.galatasaray_text{
+    position: absolute;
+    left: 23.4vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.malmo{
+    position: absolute;
+    left: 34vw;
+    top: 135vh;
+    background: url('../img/img.emblem/malmo.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.malmo_text{
+    position: absolute;
+    left: 34vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.midtjylland{
+    position: absolute;
+    left: 43vw;
+    top: 135vh;
+    background: url('../img/img.emblem/midtjylland.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.midtjylland_text{
+    position: absolute;
+    left: 42.5vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.qarabaq{
+    position: absolute;
+    left: 53vw;
+    top: 135vh;
+    background: url('../img/img.emblem/qarabaq.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.qarabaq_text{
+    position: absolute;
+    left: 52.9vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.slavia{
+    position: absolute;
+    left: 63.2vw;
+    top: 135vh;
+    background: url('../img/img.emblem/slavia.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.slavia_text{
+    position: absolute;
+    left: 62.4vw;
+    top: 142vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.pop6{
+    
+    position: absolute;
+    left: 3vw;
+    top: 148vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.apoel{
+    position: absolute;
+    left: 2vw;
+    top: 12vh;
+    background: url('../img/img.emblem/apoel.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.apoel_text{
+    position: absolute;
+    left: 2.3vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.fscb{
+    position: absolute;
+    left: 11vw;
+    top: 12vh;
+    background: url('../img/img.emblem/fcsb.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.fscb_text{
+    position: absolute;
+    left: 11.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.fener{
+    position: absolute;
+    left: 21.3vw;
+    top: 12vh;
+    background: url('../img/img.emblem/fener.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.fener_text{
+    position: absolute;
+    left: 20.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.feren{
+    position: absolute;
+    left: 31.3vw;
+    top: 12vh;
+    background: url('../img/img.emblem/feren.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.feren_text{
+    position: absolute;
+    left: 30.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.jagiell{
+    position: absolute;
+    left: 41vw;
+    top: 12vh;
+    background: url('../img/img.emblem/jagiell.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.jagiell_text{
+    position: absolute;
+    left: 40.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.ludo{
+    position: absolute;
+    left: 50vw;
+    top: 12vh;
+    background: url('../img/img.emblem/ludo.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.ludo_text{
+    position: absolute;
+    left: 49.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.paok{
+    position: absolute;
+    left: 60vw;
+    top: 12vh;
+    background: url('../img/img.emblem/paok.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.paok_text{
+    position: absolute;
+    left: 60.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.rangers{
+    position: absolute;
+    left: 70vw;
+    top: 12vh;
+    background: url('../img/img.emblem/rangers.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.rangers_text{
+    position: absolute;
+    left: 70vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.twente{
+    position: absolute;
+    left: 80vw;
+    top: 12vh;
+    background: url('../img/img.emblem/twente.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.twente_text{
+    position: absolute;
+    left: 80vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.union{
+    position: absolute;
+    left: 89vw;
+    top: 12vh;
+    background: url('../img/img.emblem/union.png') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.union_text{
+    position: absolute;
+    left: 89.5vw;
+    top: 19.5vh;
+    color: black;
+    font-size: 15px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+hr {position: absolute; 
+    width: 1520px;
+    margin-left: -0px; 
+    top: 180vh; 
+}
+.end{
+position: absolute;
+left: 3vw;
+top: 182vh;
+color: black;
+font-size: 16px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.end2{
+    position: absolute;
+left: 49vw;
+top: 200vh;
+color: black;
+font-size: 16px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.reklama1{
+    position: absolute;
+    left: 27vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama1.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama2{
+    position: absolute;
+    left: 33vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama2.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama3{
+    position: absolute;
+    left: 39vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama3.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama4{
+    position: absolute;
+    left: 45vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama4.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama5{
+    position: absolute;
+    left: 51vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama5.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama6{
+    position: absolute;
+    left: 57vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama6.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama7{
+    position: absolute;
+    left: 63vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama7.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama8{
+    position: absolute;
+    left: 69vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama8.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama9{
+    position: absolute;
+    left: 75vw;
+    top: 205.5vh;
+    background: url('../img/reklama/reklama9.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+
+
+

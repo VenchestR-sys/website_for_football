@@ -1,9 +1,117 @@
-.img1{
-    width: 100vw;
-    height: 100vw;
+body {
+    overflow-x: hidden;
 }
-.img2{
-    margin-left: -3.7vw;
+.background-container2 {
     width: 100vw;
-    height: 10vw;
+    height: 90vh;
+    margin-left: -4vw;
+    background-image: url('../img/backgroundDark01L.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.background-container1 {
+    width: 100vw;
+    height: 15vh;
+    margin-top: -2.1vw;
+    margin-left: -4vw;
+    background-image: url('../img/backgroundDark03L.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+}
+.game1{
+    background-color: #0a0a61;
+    width: 9%;
+    height: 75%;
+    margin-left: 19vw;
+    margin-top: 1%;
+    border-radius: 0.4vw;
+}
+.game1-title{
+    color: rgb(187, 187, 187);
+    font-family: "Manrope semibold", system-ui, sans-serif;
+    font-size: 0.7vw;
+    text-align: left;
+    margin-left: 0.4vw;
+}
+.game1-score{
+    color: rgb(148, 148, 148);
+    font-size: 0.6vw;
+    margin-left: 0.4vw;
+}
+.game1-win{
+    color: rgb(148, 148, 148);
+    font-size: 0.6vw;
+    margin-left: 0.4vw;
+}
+.game1-team1{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    margin-left: 0.4vw;
+}
+.game1-team2{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    margin-left: 0.4vw;
+}
+.card-team1{
+    background-color: #ff3b3b;
+    width: 0.5vw;
+    height: 0.9vw;
+    display: inline-block;
+    margin-left: 0.4vw;
+}
+.card-team2{
+    background-color: #ff3b3b;
+    width: 0.5vw;
+    height: 0.9vw;
+    display: inline-block;
+    margin-left: 0.4vw;
+}
+.score1{
+    margin-left: 4vw;
+    position: absolute;
+    color:aliceblue;
+}
+.score2{
+    margin-left: 7.7vw;
+    margin-top: -2.5vw;
+    position: absolute;
+    color: aliceblue;
+}
+
+.game2{
+    background-color: #0a0a61;
+    width: 9%;
+    height: 75%;
+    margin-left: 39vw;
+    margin-top: -5.7%;
+    border-radius: 0.4vw;
+}
+.game3{
+    background-color: #0a0a61;
+    width: 9%;
+    height: 75%;
+    margin-left: 29vw;
+    margin-top: -5.6%;
+    border-radius: 0.4vw;
+}
+.game4{
+    background-color: #0a0a61;
+    width: 9%;
+    height: 75%;
+    margin-left: 49vw;
+    margin-top: -5.7%;
+    border-radius: 0.4vw;
+}
+.game5{
+    background-color: #0a0a61;
+    width: 9%;
+    height: 75%;
+    margin-left: 59vw;
+    margin-top: -5.7%;
+    border-radius: 0.4vw;
 }
