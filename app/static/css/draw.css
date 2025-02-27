@@ -1,0 +1,289 @@
+body {
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+}
+
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 520vh;
+}
+.oson{
+    position: absolute;
+    width: 1750px;
+    left: 0vw;
+    top: 6vh;
+    background: url('../img/tip-bg.avif') ;
+	height: 180px;
+}
+
+.oson_txt{
+    position: absolute;
+    left: 7vw;
+    top: 5vh;
+    color: white;
+    font-size: 45px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.oson_txt1{
+    position: absolute;
+    left: 7vw;
+    top: 15vh;
+    color: #ffffffb3;
+    font-size: 18px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.vidos {
+    top: 40vh;
+    left: 2vw;
+    width: 100%;
+    max-width: 700px;
+    position: relative; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+.vidos_txt{
+    position: absolute;
+    left: 6vw;
+    top: 95vh;
+    color: #070707b3;
+    font-size: 18px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+
+}
+.result{
+    position: absolute;
+    left: 64vw;
+    top: 48vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.result1{
+    position: absolute;
+    left: 52vw;
+    top: 58vh;
+    color: black;
+    font-size: 30px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.result2{
+    position: absolute;
+    left: 52vw;
+    top: 76vh;
+    color: #070707b3;
+    font-size: 22px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.result3{
+    position: absolute;
+    left: 52vw;
+    top: 87vh;
+    color: #070707b3;
+    font-size: 27px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+
+.resto {
+    position: absolute;
+    width: 750px;
+    left: 50vw;
+    top: 108vh;
+    background: url('../img/lool.avif');
+    height: 530px;
+    border-radius: 20px; /* Округление углов */
+}
+.result4{
+    position: absolute;
+    left: 52vw;
+    top: 173vh;
+    color: #070707b3;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.road {
+    position: absolute;
+    width: 950px;
+    left: 23vw;
+    top: 198vh;
+    background: url('../img/road.avif');
+    height: 530px;
+    border-radius: 20px; /* Округление углов */
+}
+.road_txt{
+    position: absolute;
+    left: 35vw;
+    top: 260vh;
+    color: black;
+    font-size: 30px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.road_txt1{
+    position: absolute;
+    left: 35vw;
+    top: 270vh;
+    color: black;
+    font-size: 23px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.road_txt4{
+    position: absolute;
+    left: 0vw;
+    top: 48vh;
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.end{
+    position: absolute;
+    left: -26vw;
+    top: 60vh;
+    color: black;
+    font-size: 32px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.end_txt {
+    position: absolute;
+    width: 400px;
+    left: -28vw;
+    top: 78vh;
+    background: url('../img/3.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.end_txt1 {
+    position: absolute;
+    width: 400px;
+    left: 20vw;
+    top: 95vh;
+    background: url('../img/2.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.end_txt2 {
+    position: absolute;
+    width: 400px;
+    left: -28vw;
+    top: 105vh;
+    background: url('../img/4.jpeg');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.dss{
+    position: absolute;
+    left: -4vw;
+    top: 108vh;
+    color: black;
+    font-size: 20px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.dss1{
+    position: absolute;
+    left: -4vw;
+    top: 85vh;
+    color: black;
+    font-size: 20px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.dss2{
+    position: absolute;
+    left: 44vw;
+    top: 100vh;
+    color: black;
+    font-size: 20px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.end2{
+    position: absolute;
+left: 9vw;
+top: 158vh;
+color: black;
+font-size: 18px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+white-space: nowrap; /* Не переносить текст */
+}
+.reklama1{
+    position: absolute;
+    left: -7vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama1.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama2{
+    position: absolute;
+    left: -2vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama2.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama3{
+    position: absolute;
+    left: 3vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama3.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama4{
+    position: absolute;
+    left: 8vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama4.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama5{
+    position: absolute;
+    left: 13vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama5.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama6{
+    position: absolute;
+    left: 18vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama6.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama7{
+    position: absolute;
+    left: 23vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama7.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama8{
+    position: absolute;
+    left: 28vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama8.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama9{
+    position: absolute;
+    left: 33vw;
+    top: 165.5vh;
+    background: url('../img/reklama/reklama9.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}

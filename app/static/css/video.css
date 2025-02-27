@@ -1,5 +1,8 @@
 body {
     overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+    
+     
+  
 }
 #footer {
 	position: absolute;
@@ -15,8 +18,9 @@ body {
 	font-family: "Manrope regular", system-ui, sans-serif;
 	overflow: hidden;
 	width: 99vw;
-    top: 250vh;
+    top: 300vh;
 }
+
 .headere {
     position: absolute; /* Позволяет элементу находиться поверх видео */
     background: rgb(1, 14, 70); /* Полупрозрачный фон */
@@ -129,8 +133,8 @@ video {
 }
 .fot2{
     position: absolute;
-left: 30vw;
-top: 120vh;
+    left: 30vw;
+    top: 120vh;
 background: url('../img/game/fbl-eur-c1-juventus-psv_eindhoven.avif') no-repeat center center; /* Центрируем изображение */
 background-size: cover; /* Заполняем элемент изображением */
 width: 27.5vw;
@@ -138,9 +142,20 @@ height: 30vh;
 border-radius: 15px; /* Замените 15px на нужное вам значение */
 overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
     }
+    .white-background2 {
+        position: absolute;
+        left: 30vw;
+        width: 2.5vw;
+        height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
+        background-color: rgb(241, 238, 245); 
+        border-radius: 15px; 
+        padding: 220px; 
+        top: 120vh;
+        border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
+        }
 .for2_text{
         position: absolute;
-        left: 33vw;
+        left: 34vw;
         top: 155vh;
         color: black;
         font-size: 25px;
@@ -174,40 +189,20 @@ overflow: hidden; /* Скрываем все, что выходит за пре�
     font-size: 25px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
-.white-background2 {
-    position: absolute;
-    left: 30vw;
-    width: 2.5vw;
-    height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
-    background-color: rgb(241, 238, 245); 
-    border-radius: 15px; 
-    padding: 220px; 
-    top: 120vh;
-    border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
-    }
+
 .ggg{
     position: absolute;
     left: 0vw;
-    top: 170vh;
+    top: 180vh;
     color: black;
     font-size: 33px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }    
-.white-background3 {
-    position: absolute;
-    left: 30vw;
-    width: 2.5vw;
-    height: -11vh; /* Обратите внимание, что высота не может быть отрицательной */
-    background-color: rgb(241, 238, 245); 
-    border-radius: 15px; 
-    padding: 220px; 
-    top: 120vh;
-    border: 2px solid rgb(189, 139, 139); /* Добавляем черный контур */
-    }
-.fot3{
+
+.fo3{
         position: absolute;
-    left: 30vw;
-    top: 120vh;
+    left: 0vw;
+    top: 190vh;
     background: url('../img/game/800x450.webp') no-repeat center center; /* Центрируем изображение */
     background-size: cover; /* Заполняем элемент изображением */
     width: 27.5vw;
@@ -215,11 +210,134 @@ overflow: hidden; /* Скрываем все, что выходит за пре�
     border-radius: 15px; /* Замените 15px на нужное вам значение */
     overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
         }
-.for3_text{
+.fo3_text{
             position: absolute;
-            left: 33vw;
-            top: 155vh;
+            left: 3vw;
+            top: 220vh;
             color: black;
             font-size: 25px;
             font-family: "Manrope semibold", system-ui, sans-serif;
         }
+.fo4{
+            position: absolute;
+        left: 30vw;
+        top: 190vh;
+        background: url('../img/game/tebas-olmo-ne-dolzhen-zakanchivat-la-ligu-s-barsoj-my-sdelali-ochen-chyotkoe-zayavlenie_17403942031694312139.jpg') no-repeat center center; /* Центрируем изображение */
+        background-size: cover; /* Заполняем элемент изображением */
+        width: 27.5vw;
+        height: 30vh;
+        border-radius: 15px; /* Замените 15px на нужное вам значение */
+        overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
+            }
+.fo4_text{
+                position: absolute;
+                left: 37vw;
+                top: 220vh;
+                color: black;
+                font-size: 25px;
+                font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.fo5{
+    position: absolute;
+left: 60vw;
+top: 190vh;
+background: url('../img/game/2000428055_0_0_3168_1782_1920x1080_80_0_0_0d9a347237fa07f1f2ec8a3ca44820a1.jpg') no-repeat center center; /* Центрируем изображение */
+background-size: cover; /* Заполняем элемент изображением */
+width: 27.5vw;
+height: 30vh;
+border-radius: 15px; /* Замените 15px на нужное вам значение */
+overflow: hidden; /* Скрываем все, что выходит за пределы элемента */
+    }
+.fo5_text{
+        position: absolute;
+        left: 61vw;
+        top: 220vh;
+        color: black;
+        font-size: 25px;
+        font-family: "Manrope semibold", system-ui, sans-serif;
+        white-space: nowrap; /* Не переносить текст */
+}    
+
+
+
+.end2{
+    position: absolute;
+left: 39vw;
+top: 248vh;
+color: black;
+font-size: 18px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+white-space: nowrap; /* Не переносить текст */
+}
+.reklama1{
+    position: absolute;
+    left: 17vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama1.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama2{
+    position: absolute;
+    left: 23vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama2.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama3{
+    position: absolute;
+    left: 29vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama3.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama4{
+    position: absolute;
+    left: 35vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama4.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama5{
+    position: absolute;
+    left: 41vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama5.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama6{
+    position: absolute;
+    left: 47vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama6.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama7{
+    position: absolute;
+    left: 53vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama7.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama8{
+    position: absolute;
+    left: 59vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama8.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama9{
+    position: absolute;
+    left: 65vw;
+    top: 255.5vh;
+    background: url('../img/reklama/reklama9.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
