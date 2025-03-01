@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+}
 .headers{
     position: absolute;
     font-family: "Manrope semibold", system-ui, sans-serif;

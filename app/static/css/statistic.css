@@ -1,6 +1,22 @@
 body {
     overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
 }
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 270vh;
+}
 .fon{
     position: absolute;
     width: 100vw;
@@ -12,50 +28,213 @@ body {
 .fon_txt{
     position: absolute;
     top:10vh;
-    left:5vw;
+    left:11vw;
     color: white;
     font-family:"Manrope semibold", system-ui, sans-serif;
-    font-size:35px;
+    font-size:50px;
 }
-.white-background {
+
+.f1{
     position: absolute;
-    width: 25.5vw;
-    height: 10vh; /* Обратите внимание, что высота не может быть отрицательной */
-    background-color:#242452(241, 238, 245); 
-    border-radius: 15px; 
-    padding: 120px; 
-    top: 25vh;
-    border: 2px solid rgb(0, 0, 0); /* Добавляем черный контур */
-    }
-.dd{
-    position: absolute;
-    top:24vh;
-    left:5vw;
-    color: white;
-    font-family:"Manrope semibold", system-ui, sans-serif;
-    font-size:25px;
-}    
-.ss{
-    position: absolute;
-    top:26vh;
-    left:6vw;
-    color: white;
-    font-family:"Manrope semibold", system-ui, sans-serif;
-    font-size:73px;
+        width: 690px;
+        left: 50vw;
+        top: 28vh;
+        background: url('../img/stat.png');
+        height: 340px;
+        border-radius: 20px; /* Округление углов */
 }
-.aa{
+.f{
     position: absolute;
-    top:41vh;
-    left:6vw;
-    color: #ffffffb3;
-    font-family:"Manrope semibold", system-ui, sans-serif;
-    font-size:20px;
+        width: 680px;
+        left: 10vw;
+        top: 28vh;
+        background: url('../img/stat1.png');
+        height: 290px;
+        border-radius: 20px; /* Округление углов */
 }
-.pp{
+.f2{
     position: absolute;
-    top:46vh;
-    left:6vw;
-    color: #fffffffb;
+    top:75vh;
+    left:2vw;
+    color: black;
     font-family:"Manrope semibold", system-ui, sans-serif;
-    font-size:33px;
+    font-size:40px;
+}
+.f3{
+    position: absolute;
+    width: 305px;
+    left: 1vw;
+    top: 90vh;
+    background: url('../img/stat2.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.f4{
+    position: absolute;
+    width: 303px;
+    left: 21vw;
+    top: 90vh;
+    background: url('../img/stat4.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.f5{
+    position: absolute;
+    width: 303px;
+    left: 41vw;
+    top: 90vh;
+    background: url('../img/stat5.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.f6{
+    position: absolute;
+    width: 303px;
+    left: 61vw;
+    top: 90vh;
+    background: url('../img/state6.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.f7{
+    position: absolute;
+    width: 303px;
+    left: 81vw;
+    top: 90vh;
+    background: url('../img/state7.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.fa2{
+    position: absolute;
+    top:143vh;
+    left:2vw;
+    color: black;
+    font-family:"Manrope semibold", system-ui, sans-serif;
+    font-size:40px;
+}
+.fa3{
+    position: absolute;
+    width: 305px;
+    left: 1vw;
+    top: 158vh;
+    background: url('../img/stit1.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.fa4{
+    position: absolute;
+    width: 303px;
+    left: 21vw;
+    top: 158vh;
+    background: url('../img/stit2.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.fa5{
+    position: absolute;
+    width: 303px;
+    left: 41vw;
+    top: 158vh;
+    background: url('../img/stit3.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.fa6{
+    position: absolute;
+    width: 303px;
+    left: 61vw;
+    top: 158vh;
+    background: url('../img/stit4.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.fa7{
+    position: absolute;
+    width: 303px;
+    left: 81vw;
+    top: 158vh;
+    background: url('../img/stit5.png');
+    height: 450px;
+    border-radius: 20px; /* Округление углов */
+}
+.end2{
+    position: absolute;
+left: 45vw;
+top: 220vh;
+color: black;
+font-size: 16px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+}
+.reklama1{
+    position: absolute;
+    left: 23vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama1.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama2{
+    position: absolute;
+    left: 29vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama2.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama3{
+    position: absolute;
+    left: 35vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama3.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama4{
+    position: absolute;
+    left: 41vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama4.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama5{
+    position: absolute;
+    left: 47vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama5.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama6{
+    position: absolute;
+    left: 53vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama6.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama7{
+    position: absolute;
+    left: 59vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama7.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama8{
+    position: absolute;
+    left: 65vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama8.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama9{
+    position: absolute;
+    left: 71vw;
+    top: 225.5vh;
+    background: url('../img/reklama/reklama9.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
 }

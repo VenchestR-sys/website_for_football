@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+    background-color: #00004b;
 }
 
 #footer {
@@ -59,7 +60,7 @@ video {
     position: absolute;
     left: 6vw;
     top: 95vh;
-    color: #070707b3;
+    color: white;
     font-size: 18px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 
@@ -68,7 +69,7 @@ video {
     position: absolute;
     left: 64vw;
     top: 48vh;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -76,7 +77,7 @@ video {
     position: absolute;
     left: 52vw;
     top: 58vh;
-    color: black;
+    color: white;
     font-size: 30px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -84,7 +85,7 @@ video {
     position: absolute;
     left: 52vw;
     top: 76vh;
-    color: #070707b3;
+    color: white;
     font-size: 22px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -92,7 +93,7 @@ video {
     position: absolute;
     left: 52vw;
     top: 87vh;
-    color: #070707b3;
+    color: white;
     font-size: 27px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -110,7 +111,7 @@ video {
     position: absolute;
     left: 52vw;
     top: 173vh;
-    color: #070707b3;
+    color: white;
     font-size: 25px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -127,7 +128,7 @@ video {
     position: absolute;
     left: 35vw;
     top: 260vh;
-    color: black;
+    color: white;
     font-size: 30px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -135,7 +136,7 @@ video {
     position: absolute;
     left: 35vw;
     top: 270vh;
-    color: black;
+    color: white;
     font-size: 23px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -143,7 +144,7 @@ video {
     position: absolute;
     left: 0vw;
     top: 48vh;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -151,7 +152,7 @@ video {
     position: absolute;
     left: -26vw;
     top: 60vh;
-    color: black;
+    color: white;
     font-size: 32px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -186,7 +187,7 @@ video {
     position: absolute;
     left: -4vw;
     top: 108vh;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -194,7 +195,7 @@ video {
     position: absolute;
     left: -4vw;
     top: 85vh;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -202,7 +203,7 @@ video {
     position: absolute;
     left: 44vw;
     top: 100vh;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: "Manrope semibold", system-ui, sans-serif;
 }
@@ -210,7 +211,7 @@ video {
     position: absolute;
 left: 9vw;
 top: 158vh;
-color: black;
+color: white;
 font-size: 18px;
 font-family: "Manrope semibold", system-ui, sans-serif;
 white-space: nowrap; /* Не переносить текст */

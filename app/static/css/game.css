@@ -1,0 +1,234 @@
+body {
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+    background-color: #00004b;
+}
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 270vh;
+}
+.text{
+    position: absolute;
+    left: 14vw;
+    top: 10vh;
+    color: white;
+    font-size: 30px;
+    font-family: "Manrope semibold", system-ui, sans-serif;
+    white-space: nowrap; /* Не переносить текст */
+}
+.image1{
+		position: absolute;
+			width: 500px;
+			left: 5vw;
+			top: 15vh;
+			background: url('../img/image1.png');
+			height: 290px;
+			border-radius: 20px; /* Округление углов */
+	
+}
+.image2{
+	position: absolute;
+		width: 230px;
+		left: 37vw;
+		top: 15vh;
+		background: url('../img/image2.png');
+		height: 290px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image3{
+	position: absolute;
+		width: 230px;
+		left: 53vw;
+		top: 15vh;
+		background: url('../img/image3.png');
+		height: 290px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image4{
+	position: absolute;
+		width: 230px;
+		left: 5vw;
+		top: 55vh;
+		background: url('../img/image4.png');
+		height: 285px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image5{
+	position: absolute;
+		width: 230px;
+		left: 20vw;
+		top: 55vh;
+		background: url('../img/image5.png');
+		height: 286px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image6{
+	position: absolute;
+		width: 500px;
+		left: 37vw;
+		top: 55vh;
+		background: url('../img/image6.png');
+		height: 288px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image7{
+	position: absolute;
+		width: 255px;
+		left: 4.5vw;
+		top: 95vh;
+		background: url('../img/image7.png');
+		height: 285px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image8{
+	position: absolute;
+		width: 240px;
+		left: 20vw;
+		top: 95vh;
+		background: url('../img/image8.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image9{
+	
+		position: absolute;
+			width: 238px;
+			left: 37vw;
+			top: 95vh;
+			background: url('../img/image9.png');
+			height: 278px;
+			border-radius: 20px; /* Округление углов */
+	
+	
+}
+.image10{
+	
+	position: absolute;
+		width: 238px;
+		left: 52vw;
+		top: 95vh;
+		background: url('../img/image10.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+}
+.image11{
+	position: absolute;
+			width: 500px;
+			left: 5vw;
+			top: 135vh;
+			background: url('../img/image11.png');
+			height: 290px;
+			border-radius: 20px; /* Округление углов */
+}
+.image12{
+	
+	position: absolute;
+		width: 238px;
+		left: 37vw;
+		top: 135vh;
+		background: url('../img/image12.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+
+
+}
+.image13{
+	
+	position: absolute;
+		width: 238px;
+		left: 52vw;
+		top: 135vh;
+		background: url('../img/image13.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+}
+.image14{
+	
+	position: absolute;
+		width: 238px;
+		left: 5vw;
+		top: 175vh;
+		background: url('../img/image14.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+}
+.image15{
+	
+	position: absolute;
+		width: 238px;
+		left: 20vw;
+		top: 175vh;
+		background: url('../img/image15.png');
+		height: 278px;
+		border-radius: 20px; /* Округление углов */
+}
+.image16{
+	position: absolute;
+		width: 500px;
+		left: 37vw;
+		top: 175vh;
+		background: url('../img/image16.png');
+		height: 288px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image17{
+	position: absolute;
+		width: 240px;
+		left: 4.5vw;
+		top: 215vh;
+		background: url('../img/image17.png');
+		height: 258px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image18{
+	position: absolute;
+		width: 240px;
+		left: 20vw;
+		top: 215vh;
+		background: url('../img/image18.png');
+		height: 258px;
+		border-radius: 20px; /* Округление углов */
+
+}
+.image19{
+	
+		position: absolute;
+			width: 238px;
+			left: 37vw;
+			top: 215vh;
+			background: url('../img/image19.png');
+			height: 258px;
+			border-radius: 20px; /* Округление углов */
+	
+	
+}
+.image20{
+	
+	position: absolute;
+		width: 238px;
+		left: 52vw;
+		top: 215vh;
+		background: url('../img/image20.png');
+		height: 258px;
+		border-radius: 20px; /* Округление углов */
+}

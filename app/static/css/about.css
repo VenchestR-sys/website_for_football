@@ -1,0 +1,476 @@
+body {
+    overflow-x: hidden;
+    background-color: #5af7dc;
+}
+#footer {
+	position: absolute;
+	box-sizing: border-box;
+	background: #4a12e4;
+	padding: 15px;
+	color: #aaa;
+	font-size: px;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	visibility: visible;
+	font-family: "Manrope regular", system-ui, sans-serif;
+	overflow: hidden;
+	width: 99vw;
+    top: 250vh;
+}
+
+.ss{
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 3vw;
+text-align: left;
+left:10px ;
+top:20vh ;
+}
+.white-background {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 25vh;
+}
+
+.inner-content {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+
+.white-background1 {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 25vh;
+    left: 50vw;
+}
+
+.inner-content1 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background2 {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 65vh;
+}
+
+.inner-content2 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background3 {
+    position: absolute;
+    left: 50vw;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 65vh;
+}
+
+.inner-content3 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background4 {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 93vh;
+}
+
+.inner-content4 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background5 {
+    position: absolute;
+    left: 50vw;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 93vh;
+}
+
+.inner-content5 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background6 {
+    position: absolute;
+    left: 50vw;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 121vh;
+}
+
+.inner-content6 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background7 {
+    position: absolute;
+    left: 50vw;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 148.5vh;
+}
+
+.inner-content7 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background8 {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 121vh;
+}
+
+.inner-content8 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.white-background9 {
+    position: absolute;
+    width: 44vw;
+    height: 22vh; /* Замените на положительное значение */
+    background-color: hwb(156 98% 0%);
+    border-radius: 15px; 
+    padding: 0; /* Убираем отступы, чтобы внутренний элемент занимал всю площадь */
+    top: 148.5vh;
+}
+
+.inner-content9 {
+    background-color: white; /* Белый фон для внутреннего блока */
+    border-radius: 15px; /* Скругляем углы внутреннего блока */
+    height: 100%; /* Заполняем всю высоту родительского блока */
+    padding: 100px; /* Отступы для содержимого */
+    box-sizing: border-box; /* Учитываем отступы в ширине и высоте */
+}
+.end_txt2 {
+        position: absolute;
+        width: 380px;
+        left: 4vw;
+        top: 25vh;
+        background: url('../img/4.jpeg');
+        height: 200px;
+        border-radius: 20px; /* Округление углов */
+    }
+.end_txt3{
+    position: absolute;
+    color: rgb(5, 4, 4);
+    font-family: "Manrope semibold", system-ui, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    left:400px ;
+    top:2vh ;
+    white-space: nowrap;
+}
+.end1{
+    position: absolute;
+    width: 380px;
+    left: 46vw;
+    top: 0vh;
+    background: url('../img/3.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.end{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:400px ;
+top:2vh ;
+white-space: nowrap;
+}
+.endoff {
+    position: absolute;
+    width: 380px;
+    left: -46vw;
+    top: 40vh;
+    background: url('../img/ff.webp');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.endoff1{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:400px ;
+top:2vh ;
+white-space: nowrap;
+}
+.endoff2 {
+    position: absolute;
+    width: 380px;
+    left: 46vw;
+    top: 0vh;
+    background: url('../img/pp.webp');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.endoff3{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:400px ;
+top:2vh ;
+white-space: nowrap;
+}
+.ron {
+    position: absolute;
+    width: 380px;
+    left: -46vw;
+    top: 28vh;
+    background: url('../img/ron.webp');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.ronn{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:400px ;
+top:0vh ;
+white-space: nowrap;
+}
+.as{
+    position: absolute;
+    width: 380px;
+    left: 46vw;
+    top: 0vh;
+    background: url('../img/kub.webp');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.as1{
+    position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:68vw ;
+top:2vh ;
+white-space: nowrap;
+}
+.asss{
+    position: absolute;
+    width: 380px;
+    left: 46vw;
+    top: 28vh;
+    background: url('../img/lowres_3_.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.asss1{
+    position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:68vw ;
+top:28vh ;
+white-space: nowrap;
+}
+.qq{
+    position: absolute;
+    width: 380px;
+    left: 46vw;
+    top: 55.5vh;
+    background: url('../img/aoo.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.qq1{
+    position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left:68vw ;
+top:59.5vh ;
+white-space: nowrap;
+}
+.lloll{
+    position: absolute;
+    width: 380px;
+    left: -46vw;
+    top: 56vh;
+    background: url('../img/kubok.avif');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.llol{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left: -24vw;
+top:56vh ;
+white-space: nowrap;
+}
+.lloll1{
+    position: absolute;
+    width: 380px;
+    left: -46vw;
+    top: 83.5vh;
+    background: url('../img/daya.webp');
+    height: 200px;
+    border-radius: 20px; /* Округление углов */
+}
+.llol1{
+position: absolute;
+color: rgb(5, 4, 4);
+font-family: "Manrope semibold", system-ui, sans-serif;
+font-size: 20px;
+text-align:left;
+left: -24vw;
+top:84vh ;
+white-space: nowrap;
+}
+.end2{
+    position: absolute;
+left: -9vw;
+top: 138vh;
+color: black;
+font-size: 18px;
+font-family: "Manrope semibold", system-ui, sans-serif;
+white-space: nowrap; /* Не переносить текст */
+}
+.reklama1{
+    position: absolute;
+    left: -25vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama1.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama2{
+    position: absolute;
+    left: -20vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama2.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama3{
+    position: absolute;
+    left: -15vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama3.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama4{
+    position: absolute;
+    left: -10vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama4.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama5{
+    position: absolute;
+    left: -5vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama5.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama6{
+    position: absolute;
+    left: 0vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama6.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama7{
+    position: absolute;
+    left: 5vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama7.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama8{
+    position: absolute;
+    left: 10vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama8.webp') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
+.reklama9{
+    position: absolute;
+    left: 15vw;
+    top: 145.5vh;
+    background: url('../img/reklama/reklama9.avif') no-repeat;
+	width: 60vw;
+	height: 50vh;
+}
